@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+/* Header top css start */
+#header{
+    width: 100%;
+}
+.header-top{
+    width: 100%;
+    background-color: #303030;
+}
+.header-top p{
+    color: #eceff1;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+    padding-bottom: initial;
+}
