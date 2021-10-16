@@ -92,10 +92,214 @@ ul,li{
 .main-menu ul li a{
   color: #fff;
 }
-.slider-image{
-  background-image: url("./../images/slider.png");
-  min-height: 400px;
+.single-slider-item{
+  min-height: 650px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.slider-image{
+  margin-top: 250px;
+}
+.slider-image h3{
+  color: #010101;
+  font-family: "Butler", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+}
+.slider-image h2{
+  color: #3B8942;
+  font-family: "Butler", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+}
+.slider-image p{
+  letter-spacing: 1.2px;
+  color: #555;
+  margin-bottom:55px; 
+}
+.slider button{
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #3B8942;
+  border-radius: 48px 48px 48px 48px;
+  padding: 10px;
+}
+.slider button i{
+  margin-left: 14px;
+}
+.slider-section button.slick-arrow {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  font-size: 25px;
+  line-height: 26px;
+  transform: translateY(10px);
+  z-index: 99;
+}
+.slider-section button.slick-arrow:hover{
+  border: 1px solid #000;
+  background: #fff;
+  color: #3B8942;
+}
+.slider-section button.slick-arrow:focus{
+  border: 0;
+  outline: 0;
+}
+.slider-section button.slick-arrow i {
+  margin: 0;
+}
+.slider-section button.slider-prev.slick-arrow{
+  left: 50px;
+  right: auto;
+}
+.Join{
+  background-color: #CCE0CE;
+  padding-bottom: 50px;
+}
+.content-text{
+  margin-top: 50px;
+}
+.content-text h2{
+  color: #000000;
+  font-family: "Butler", Sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.content-text p{
+  text-align: center;
+  color: #333333;
+  font-family: "Butler", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+iframe{
+  border-radius: 15px;
+}
+.sidebar{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 15px;
+  margin: 0 50px;
+  padding: 30px; 
+}
+.sidebar .bed-img{
+  align-items: center;
+  align-content: center;
+}
+.sidebar .bed-img img{
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.content-sitebar h2{
+  color: #000000;
+  font-family: "Butler", Sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0px;
+  margin-top: 20px;
+}
+.content-sitebar p{
+  color: #333333;
+  font-family: "Butler", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+.sidebar button{
+  border-radius: 48px;
+  margin-top: 10px;
+
+}
+.sidebar button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+
+.lyocell{
+  background-color: #fff;
+  margin: 50px 0 50px 0px;
+  
+}
+.lyocell .content-lyocell h2{
+  color: #000000;
+  font-family: "Butler", Sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.lyocell .content-lyocell p{
+  text-align: center;
+  color: #3B8942;
+  font-family: "Butler", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.lyocell .shop{
+  background-color: #fff;
+  position: relative;
+}
+.shop .imag{
+  width: 70%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.shop img{
+  margin: 10px;
+}
+.shop .head{
+  color: #3B8942;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  margin-top: 12px;
+}
+.shop .price {
+  color: #3B8942;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  margin-top: 12px;
+}
+.lyocell .icons{
+  position: absolute;
+  top: 80px;
+  right: 5px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  height: auto;
+  display: block;
+}
+.lyocell .imag img:hover.icons{
+  right: 15px;
+}
+.lyocell .icons i{
+  color: #555;
 }
